@@ -79,7 +79,7 @@ export const config = {
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {"type": "*生日", "name": "昊昊", "year": "2003", "date": "03-10"},
-        {"type": "节日", "name": "相恋", "year": "2022", "date": "01-22"},
+        {"type": "节日", "name": "相恋一周年", "year": "2022", "date": "01-22"},
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {"type": "生日", "name": "妞妞", "year": "2002", "date": "06-17"},
       ],
@@ -87,10 +87,7 @@ export const config = {
       customizedDateList: [
         // 在一起的日子
         {"keyword": "love_day", date: "2022-01-22"},
-        // 结婚纪念日
-        {"keyword": "marry_day", date: "2022-09-09"},
-        // 退伍日
-        {"keyword": "ex_day", date: "2022-09-10"},
+       
       ]
     },
     {
